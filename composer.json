@@ -1,0 +1,267 @@
+{
+  "name": "roots/bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "homepage": "https://roots.io/bedrock/",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    }
+  ],
+  "keywords": [
+   "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+
+ {
+     "type": "package",
+     "package":{
+      "name": "josedu90/add-to-any",
+      "type": "wordpress-plugin",
+      "version":"1.7.34",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/add-to-any/archive/master.zip"
+
+      }
+     }
+     
+   },
+   
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/classic-editor",
+      "type": "wordpress-plugin",
+      "version":"1.4",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/classic-editor/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/contact-form-7",
+      "type": "wordpress-plugin",
+      "version":"5.1.1",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/contact-form-7/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/go_pricing",
+      "type": "wordpress-plugin",
+      "version":"3.3.14",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/go_pricing/archive/master.zip"
+
+      }
+     }
+     
+   },
+      {
+     "type": "package",
+     "package":{
+      "name": "josedu90/js_composer",
+      "type": "wordpress-plugin",
+      "version":"5.7",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/js_composer/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/mailchimp-for-wp",
+      "type": "wordpress-plugin",
+      "version":"4.4",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/mailchimp-for-wp/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/masterslider",
+      "type": "wordpress-plugin",
+      "version":"3.2.11",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/masterslider/archive/master.zip"
+
+      }
+     }
+     
+   },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/revslider",
+      "type": "wordpress-plugin",
+      "version":"5.4.8",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/revslider/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/woocommerce",
+      "type": "wordpress-plugin",
+      "version":"3.5.6",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/woocommerce/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/advanced-custom-fields",
+      "type": "wordpress-plugin",
+      "version":"5.7.12",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/advanced-custom-fields/archive/master.zip"
+
+      }
+      
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/massive-dynamic",
+      "type": "wordpress-theme",
+      "version":"7.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/massive-dynamic/archive/master.zip"
+
+      }
+      
+     }
+     
+   },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/massive-dynamic-child",
+      "type": "wordpress-theme",
+      "version":"7.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/massive-dynamic-child/archive/master.zip"
+
+      }
+      
+     }
+     
+   },
+
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wordpress-importer",
+      "type": "wordpress-plugin",
+      "version":"0.6.4",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wordpress-importer/archive/master.zip"
+
+      }
+     }
+     
+   }
+
+  ],
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "^1.4",
+    "vlucas/phpdotenv": "^3.0.0",
+    "oscarotero/env": "^1.1.0",
+    "roots/wordpress": "5.1",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "josedu90/add-to-any":"*",
+    "josedu90/classic-editor": "*",
+    "josedu90/contact-form-7": "*",
+    "josedu90/go_pricing": "*",
+    "josedu90/js_composer": "*",
+    "josedu90/mailchimp-for-wp": "*",
+    "josedu90/masterslider": "*",
+    "josedu90/revslider": "*",
+    "josedu90/woocommerce": "*",
+    "josedu90/wordpress-importer": "*",
+    "josedu90/massive-dynamic": "*",
+    "josedu90/massive-dynamic-child": "*",
+    "josedu90/advanced-custom-fields": "*"
+     },
+  "require-dev": {   
+  "squizlabs/php_codesniffer": "^3.0.2",
+  "roave/security-advisories": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ]
+  }
+}
